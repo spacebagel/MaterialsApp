@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33027.239
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialsApp", "MaterialsApp\MaterialsApp.csproj", "{02DF7B0B-BBE0-4B47-8AC9-11795D3FEF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02DF7B0B-BBE0-4B47-8AC9-11795D3FEF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DF7B0B-BBE0-4B47-8AC9-11795D3FEF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DF7B0B-BBE0-4B47-8AC9-11795D3FEF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DF7B0B-BBE0-4B47-8AC9-11795D3FEF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB98E4F-41B4-42C7-9AC6-4A7AD571EA8A}
+	EndGlobalSection
+EndGlobal

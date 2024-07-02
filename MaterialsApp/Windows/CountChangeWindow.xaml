@@ -1,0 +1,16 @@
+﻿<Window x:Class="MaterialsApp.Windows.CountChangeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaterialsApp.Windows"
+        mc:Ignorable="d"
+        Title="Изменение кол-ва" ResizeMode="NoResize" FontFamily="{DynamicResource MainFont}" Icon="/Pictures/Одежда для ручек.ico" Height="200" Width="300" >
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Label Content="Введите количество" HorizontalAlignment="Center"/>
+            <TextBox x:Name="tbNewValue" Height="35" Margin="5" BorderBrush="{StaticResource LightFrontColor}"/>
+            <Button Style="{StaticResource GreenButtonStyle}" Width="200" Content="Сохранить" Click="SaveBtnClick"/>
+        </StackPanel>
+    </Grid>
+</Window>
